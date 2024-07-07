@@ -214,8 +214,11 @@ background-size: contain;
 #project_24 {
   background-image: url(working.svg);
   background-size: cover;
-background-position: left;
-  
+  background-position: left;
+}
+#project_25 {
+  background-image: url(Melisse.jpg);
+  background-size: contain;
 }
 @media (max-width: 350px) {
   .header h1 {
