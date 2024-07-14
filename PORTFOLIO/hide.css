@@ -146,42 +146,41 @@ a {
 #project_6 {
   background-size: contain;
   background-image: url(fylo.svg);
-  }
-  #project_7 {
+}
+#project_7 {
   background-size: contain;
   background-image: url(icon-supervisor.svg);
 }
-  #project_8 {
+#project_8 {
   background-size: contain;
   background-image: url(icon-luxury.svg);
   background-color: hsl(179, 100%, 13%);
 }
-  #project_9 {
+#project_9 {
   background-image: url(old.jpg);
 }
-  #project_10 {
+#project_10 {
   background-image: url(music.jpeg);
 }
-  #project_11 {
+#project_11 {
   background-image: url(image-equilibrium.jpg);
 }
-  #project_12 {
+#project_12 {
   background-image: url(image-product-desktop.jpg);
 }
 #project_13 {
-background-image: url(mastercraft.svg);
-background-size: contain;
+  background-image: url(mastercraft.svg);
+  background-size: contain;
 }
-  #project_14 {
+#project_14 {
   background-image: url(sunny.jpg);
 }
-  #project_15 {
+#project_15 {
   background-image: url(w..jpg);
 }
-  #project_16 {
+#project_16 {
   background-image: url(easybank.svg);
   background-size: contain;
-  
 }
 #project_17 {
   background-image: url(insure.svg);
@@ -205,11 +204,9 @@ background-size: contain;
 
 #project_22 {
   background-image: url(desktop.png);
-  
 }
 #project_23 {
   background-image: url(specter.png);
-  
 }
 #project_24 {
   background-image: url(working.svg);
@@ -220,8 +217,23 @@ background-size: contain;
   background-image: url(Melisse.jpg);
   background-size: contain;
 }
+#project_26 {
+  background-image: url(BookStore.png);
+  background-size: contain;
+}
 @media (max-width: 350px) {
   .header h1 {
     font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
 }
