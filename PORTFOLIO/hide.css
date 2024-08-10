@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo {
+  background-image: url(logo.png);
+  background-size: cover;
+  width: 190px;
+  height: 150px;
+  margin: 10px auto;
+}
+
+.header {
+  background-color: #100d28;
+  padding: 20px 50px 50px;
+  text-align: center;
+}
+
+.header h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 15px;
+}
+.header p {
+  color: #eeeeee77;
+  text-transform: capitalize;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.skill {
+  margin: 35px auto;
+  width: 70%;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 30px;
+  box-shadow: 0px 0px 10px #100d281c;
+}
+
+.img {
+  padding-top: 20px;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}
+
+#html {
+  background-image: url(html-5.svg);
+}
+#css {
+  background-image: url(css3.svg);
+}
+#sass {
+  background-image: url(sass.svg);
+}
+#js {
+  background-image: url(js.svg);
+}
+#bootstrap {
+  background-image: url(bootstrap.svg);
+}
+#ts {
+  background-image: url(ts.svg);
+}
+#php {
+  background-image: url(php.svg);
+}
+#laravel {
+  background-image: url(laravel.svg);
+}
+#java {
+  background-image: url(java.svg);
+}
+#mysql {
+  background-image: url(mysql.svg);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 15px;
+}
+.project {
+  box-shadow: 0px 0px 10px #100d281c;
+  padding: 20px;
+  margin: 0px 15px;
+  border-radius: 10px;
+  height: 250px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #9990be6b;
+}
+
+.project h1 {
+  font-family: "Lato", sans-serif;
+  color: #0081b0c9;
+  font-size: 179px;
+  text-align: center;
+}
+
+.title {
+  bottom: 20px;
+  font-weight: bold;
+  border: 1px solid #9990be6b;
+  border-top: 0px;
+  margin: 0px 15px;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-transform: uppercase;
+}
+
+#project_1 {
+  background-image: url(logo.jpg);
+}
+#project_2 {
+  background-image: url(casque.jpg);
+}
+#project_3 {
+  background-image: url(AOLA.svg);
+  background-size: contain;
+}
+#project_4 {
+  background-image: url(logo.svg);
+  background-size: contain;
+  background-color: rgb(11 57 94);
+  padding: 20px;
+}
+#project_5 {
+  background-image: url(tas3a.gif);
+}
+#project_6 {
+  background-size: contain;
+  background-image: url(fylo.svg);
+}
+#project_7 {
+  background-size: contain;
+  background-image: url(icon-supervisor.svg);
+}
+#project_8 {
+  background-size: contain;
+  background-image: url(icon-luxury.svg);
+  background-color: hsl(179, 100%, 13%);
+}
+#project_9 {
+  background-image: url(old.jpg);
+}
+#project_10 {
+  background-image: url(music.jpeg);
+}
+#project_11 {
+  background-image: url(image-equilibrium.jpg);
+}
+#project_12 {
+  background-image: url(image-product-desktop.jpg);
+}
+#project_13 {
+  background-image: url(mastercraft.svg);
+  background-size: contain;
+}
+#project_14 {
+  background-image: url(sunny.jpg);
+}
+#project_15 {
+  background-image: url(w..jpg);
+}
+#project_16 {
+  background-image: url(easybank.svg);
+  background-size: contain;
+}
+#project_17 {
+  background-image: url(insure.svg);
+  background-size: contain;
+}
+#project_18 {
+  background-image: url(blogr.svg);
+  background-size: contain;
+}
+#project_19 {
+  background-image: url(manage.svg);
+  background-size: contain;
+}
+#project_20 {
+  background-image: url(withraw.png);
+}
+#project_21 {
+  background-image: url(bookmark.svg);
+  background-size: contain;
+}
+
+#project_22 {
+  background-image: url(desktop.png);
+}
+#project_23 {
+  background-image: url(specter.png);
+}
+#project_24 {
+  background-image: url(working.svg);
+  background-size: cover;
+  background-position: left;
+}
+#project_25 {
+  background-image: url(Melisse.jpg);
+  background-size: contain;
+}
+#project_26 {
+  background-image: url(BookStore.png);
+  background-size: contain;
+}
+#project_29 {
+  background-image: url(Decore.png);
+}
+#project_27 {
+  background-image: url(intro.svg);
+}
+#project_28 {
+  background-image: url(Clothelogo.jpg);
+  background-size: contain;
+}
+@media (max-width: 350px) {
+  .header h1 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .work {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
