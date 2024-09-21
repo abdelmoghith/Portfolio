@@ -230,6 +230,9 @@ a {
 #project_28 {
   background-image: url(Rofouf.png);
 }
+#project_30 {
+  background-image: url(tipaza.jpg);
+}
 @media (max-width: 350px) {
   .header h1 {
     font-size: 25px;
