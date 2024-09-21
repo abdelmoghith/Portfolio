@@ -229,7 +229,6 @@ a {
 }
 #project_28 {
   background-image: url(Rofouf.png);
-  background-size: contain;
 }
 @media (max-width: 350px) {
   .header h1 {
